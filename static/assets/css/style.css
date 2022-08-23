@@ -1,0 +1,2718 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family:'Barlow' ;
+
+}
+.bold-title{
+    font-family:'Barlow';
+    font-size: 40px !important;
+}
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    color: #707070;
+    font-family: 'Barlow';
+    font-style: normal;
+}
+
+body {
+    color: #707070;
+    font-weight: 400;
+    font-family: barlow;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    position: relative;
+    min-height: 100vh;
+}
+
+a {
+    color: #707070;
+}
+
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #707070;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+
+/* Home page start */
+
+.home-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.home-option-blk {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 100%;
+}
+
+.common-field {
+    height: 60px;
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 21px;
+    margin-bottom: 5px;
+    padding: 15px;
+    padding-left: 25px;
+    line-height: 1.6;
+    transition: .4s;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.sub-btn {
+    height: 60px;
+    width: auto;
+    display: inline-block;
+    background: #d8d8d8;
+    border-radius: 21px;
+    margin-bottom: 25px;
+    padding: 15px;
+    padding-left: 38px;
+    line-height: 1.6;
+    transition: .4s;
+    padding-right: 38px;
+    margin-top: 20px;
+    letter-spacing: .5px;
+}
+
+.home-page .sub-btn {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.btn-bordered {
+    border: 1px solid #707070a4;
+    border-radius: 17px;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.btn-bordered i {
+    font-size: 19px;
+    margin-right: 5px;
+    color: #dedede;
+    position: relative;
+    top: 1px;
+}
+
+.profile-btn {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+
+
+/* Home page END */
+
+
+/* Program selection page start */
+
+.program-option-blk {
+    max-width: 530px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.program-options {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.program-txt p {
+    font-size: 50px;
+    margin-bottom: 70px;
+    letter-spacing: .5px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+}
+
+.back-btn {
+    position: absolute;
+    bottom: 35px;
+    left: 50px;
+    z-index: 6;
+}
+
+.back-btn a {
+    font-size: 17px;
+    display: inline-block;
+}
+
+.back-btn a i {
+    font-size: 13px;
+    margin-right: 6px;
+    color: #c4c4c4;
+    transform: rotate(180deg);
+}
+
+.home-btn {
+    position: absolute;
+    top: 22px;
+    font-size: 18px;
+    left: 15px;
+    z-index: 9;
+}
+
+
+/* Program selection page END */
+
+
+/* Registry page start */
+
+.single-input-item input {
+    outline: none;
+    height: 60px;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #000;
+    margin-bottom: 35px;
+    padding: 15px;
+    padding-left: 0;
+    letter-spacing: 0.5px;
+    color: #707070;
+}
+
+.registry-option-blk {
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.registry-content {
+    flex: 0 0 100%;
+}
+
+.registry-option-blk .single-input-item {
+    max-width: 96%;
+}
+
+.containerr {
+    display: block;
+    position: relative;
+    padding-left: 45px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #707070;
+    margin-left: 25px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.containerr input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #707070bd;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.containerr:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.containerr input:checked~.checkmark {
+    background-color: #707070bd;
+    border-color: transparent;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.containerr input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.containerr .checkmark::after {
+    left: 8px;
+    top: 4px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+button.sub-btn {
+    height: 60px;
+    width: auto;
+    display: inline-block;
+    background: #d8d8d8;
+    border-radius: 21px;
+    margin-bottom: 25px;
+    color: #707070;
+    letter-spacing: .5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.home-page .form-submit .sub-btn {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/* Registry page END */
+
+
+/* Mbx Pro page start */
+
+.mbx-main-blk {
+}
+
+.phase-blk {
+    display: flex;
+    margin-top: 30px;
+}
+
+.phase-field {
+    flex: 0 0 50%;
+}
+
+.phase-field .common-field {
+    max-width: 80%;
+    text-align: center;
+    height: 75px;
+    padding: 0;
+    line-height: 75px;
+    font-size: 22px;
+}
+
+.mbx-left-content p {
+    font-size: 21px;
+}
+
+.mbx-left-top {
+    margin-bottom: 50px;
+}
+
+.step-bar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.step-bar ul li {
+    position: relative;
+}
+
+.step-bar ul li::after {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    content: '';
+    border-radius: 50px;
+    background: #D0D0D0;
+    top: -5px;
+    left: -2px;
+    transition: .4s;
+    z-index: 1;
+}
+
+.step-bar ul li {
+    position: relative;
+    background: #707070;
+    height: 1px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.step-bar ul li.active::after,
+.step-bar ul li:hover::after {
+    background-color: #707070;
+}
+
+.step-message {
+    width: 322px;
+    position: absolute;
+    top: 25px;
+    font-size: 18px;
+    left: -2px;
+}
+
+.step-message span {
+    display: block;
+    margin-bottom: 17px;
+}
+
+.common-step-bar-blk {
+    padding-top: 75px;
+}
+
+.mbx-top-content-blk {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 60px;
+}
+
+.phase-blk .common-field {
+    text-align: center;
+    max-width: 80%;
+}
+
+.mbx-left-content.left-border {
+    /* border-right: 1px solid #707070; */
+}
+
+.mbx-bottom-content-blk {
+    padding-bottom: 60px;
+}
+
+.mbx-bottom-right-content {
+    padding-left: 110px;
+    max-width: 435px;
+}
+
+.mbx-bottom-right-content b {
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+.mbx-bottom-right-content span {
+/*  font-size: 29px;
+  border-bottom: 2px solid #707070;
+  padding-bottom: 23px;
+ */   margin-bottom: 23px;
+    display: block;
+}
+
+.mbx-bottom-right-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.mbx-bottom-content-blk .form-submit {
+    margin-top: 40px;
+}
+
+.more-icon {
+    font-size: 15px;
+    color: #c4c4c4;
+    position: absolute;
+    right: -1px;
+    top: -9px;
+    cursor: pointer;
+}
+
+
+/* Mbx Pro page END */
+
+
+/* Selection-of-trategists page start */
+
+.strategists-blk p {
+    font-size: 23px;
+    margin-bottom: 23px;
+}
+
+.stratigist-thumb img {
+    max-height: 167px;    background: #f5f5f5;
+
+    margin-bottom: 10px;
+    height: 160px;
+    width: 100%;
+}
+
+.stratigist-item p {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.strategist-select {
+    position: absolute;
+    top: -17px;
+    right: -9px;
+}
+
+.strategist-select img {
+    max-width: 35px;
+}
+
+.strategists-blk {
+    padding-right: 40px;
+}
+
+.stratigist-item {
+    cursor: pointer;
+}
+
+
+/* Selection-of-trategists page END */
+
+
+/* Kick day selection page start */
+
+.date-select-blk {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.date-item {
+    flex: 0 0 25%;
+    padding: 15px;
+    height: 105px;
+}
+
+.kick-day-selection-blk {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.date-item .common-field {
+    height: 100%;
+}
+
+.kick-day-selection-blk p {
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.month-select {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.month-select span:last-child {
+    margin-left: 10px;
+}
+
+.month-select span {
+    font-size: 15px;
+    color: #c4c4c4;
+    cursor: pointer;
+    position: relative;
+    top: -1px;
+    margin-right: 10px;
+}
+
+.end-date p {
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+.end-date b {
+    font-size: 17px;
+}
+
+.date-submit button.sub-btn {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+/* Kick day selection page END */
+
+
+/* Time proposal page start */
+
+.time-proposal-top .step-bar ul li .list-txt {
+    position: absolute;
+    top: -60px;
+    left: -20px;
+    font-size: 18px;
+}
+
+.time-proposal-top {
+    padding-top: 45px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.time-proposal-option {
+    max-width: 420px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 285px;
+}
+
+
+/* Time proposal page END */
+
+
+/* Payment page start */
+
+.payment-content-blk .phase-blk .common-field {
+    max-width: 80%;
+    text-align: left;
+    padding-left: 35px;
+    margin-top: 0;
+}
+
+.payment-content-blk .phase-blk {
+    margin-top: 0;
+}
+
+.payment-content-blk {
+    padding-top: 95px;
+}
+
+.payment-submit button {
+    margin: 0;
+    height: 54px;
+}
+
+.payment-total-blk b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title p {
+    font-size: 25px;
+    display: inline-block;
+    margin-left: -25px;
+}
+
+
+/* Payment page END */
+
+
+/* Video presentation page start */
+
+.video-play-area {
+    height: 390px;
+    width: 100%;
+    position: relative;
+}
+
+.video-play-area img {
+    height: 100%;
+    width: 100%;
+}
+
+.video-presentation-blk {
+    text-align: center;
+    max-width: 740px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: #c7c7c7;
+    cursor: pointer;
+    margin-top: -17px;
+    margin-left: -10px;
+}
+
+.mbx-page {
+    position: relative;
+}
+
+.video-presentation-blk p {
+    font-size: 17px;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.video-submit button {
+    margin-top: 40px;
+    height: 45px;
+    padding: 7px;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-size: 20px;
+}
+
+
+/* Video presentation page END */
+
+
+/* Learn Mbx page start */
+
+.learn-mbx-img img {
+    max-width: 190px;
+}
+
+.learn-mbx-chart {
+    display: flex;
+    align-items: center;
+}
+
+.learn-mbx .phase-blk .common-field {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 21px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    line-height: 33px;
+}
+
+.everyone-items-blk {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    padding-left: 55px;
+}
+
+.everyone-items-blk .phase-field {
+    flex: 0 0 50%;
+    padding: 15px;
+    height: 160px;
+}
+
+.everyone-items-blk .phase-field .common-field {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    line-height: 136px;
+}
+
+.mbx-top-content-blk.learn-mbx-blk {
+    padding-bottom: 135px;
+    padding-left: 50px;
+    margin-bottom: 65px;
+}
+
+.mbx-left-content.left-border.learn-mbx {
+    padding-bottom: 100px;
+}
+
+.learn-mbx-img {
+    padding-left: 90px;
+}
+
+.everyone-blk p {
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+
+/* Learn Mbx page END */
+
+
+/* Client page start */
+
+.client-thumb {
+    height: 360px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.client-thumb img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.client-title {
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.client-description-blk p {
+    font-size: 21px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.client-thumb.client-thumb-pear {
+    height: 260px;
+}
+
+
+/* Client page END */
+
+
+/* Buy-mbx page start */
+
+.buy-mbx-form .single-input-item {
+    flex: 0 0 73%;
+}
+
+
+/* Buy-mbx page END */
+
+
+/* Evaluate page start */
+
+.evaluate-form .single-input-item input {
+    margin: 0;
+}
+
+.learn-mbx.evaluate-right-blk p {
+    margin-bottom: 32px;
+}
+
+.learn-mbx.evaluate-right-blk .phase-blk .common-field {
+    margin: 0;
+}
+
+
+/* Evaluate page END */
+
+
+/* Mbx Detail page start */
+
+.mbx-left-content {
+}
+
+.mbx-left-content.mbx-detail-option .common-field {
+    margin: 0;
+    text-align: left;
+    padding-left: 40px;
+    max-width: 75%;
+}
+
+.mbx-details-btn button {
+    padding-left: 30px;
+    height: 57px;
+    line-height: 29px;
+    font-size: 19px;
+    padding-right: 30px;
+    margin-top: 45px;
+}
+
+.mbx-details-right p {
+    font-size: 21px;
+    margin-bottom: 70px;
+}
+
+.mbx-detail-wrap .common-field {
+    max-width: 85%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.mbx-detail-wrap {
+    height: 230px;
+    overflow-y: scroll;
+}
+
+#mbx-scroll::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+#mbx-scroll::-webkit-scrollbar {
+    background-color: #f5f5f5;
+    width: 10px;
+    border-radius: 10px;
+}
+
+#mbx-scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #70707063;
+}
+
+.mbx-detail-content-blk {
+    padding-top: 45px;
+}
+
+.single-input-item label {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+
+/* Mbx Detail page END */
+
+
+/* Pre-agenda page start */
+
+.pre-agenda-form .single-input-item {
+    flex: 0 0 100%;
+}
+
+.pre-agenda-form .single-input-item input {
+    margin: 0;
+}
+
+.pre-agenda-btn .sub-btn {
+    padding-left: 35px;
+    height: 55px;
+    padding-right: 35px;
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+
+/* Pre-agenda page END */
+
+
+/* Strategist page start */
+
+.strategist-blk {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.strategist-text-blk span {
+    font-size: 21px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.strategist-text-blk p {
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 30px;
+    max-width: 84%;
+    letter-spacing: .5px;
+}
+
+.strategist-thumb {
+    height: 300px;
+    margin-bottom: 25px;
+    width: 100%;
+    padding-right: 45px;
+}
+
+.strategist-thumb img {
+    height: 100%;
+    width: 100%;
+}
+
+.strategist-title p {
+    font-size: 25px;
+    margin-bottom: 70px;
+    display: inline-block;
+    margin-left: -50px;
+}
+
+
+/* Strategist page END */
+
+
+/* Schedule meeting 2 page start */
+
+.video-submit-2 .sub-btn {
+    width: 100%;
+    height: 56px;
+    line-height: 30px;
+}
+
+.schedule-2-blk {
+    max-width: 500px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.schedeule-2-video-play {
+    height: 245px;
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.schedeule-2-video-play img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Schedule meeting 2 page END */
+
+
+/* Select team page start */
+
+.select-team-title p {
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+/* Select team page END */
+
+
+/* Client View CSS start */
+
+
+/* client view registration start */
+
+.registry-form-txt p {
+    font-size: 18px;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.form-submit.registry-sub button {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    height: 37px;
+    font-weight: bold;
+    line-height: 5px;
+    font-size: 17px;
+    border-radius: 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    color: black;
+}
+
+.registry-title {
+    padding: 0;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    padding-right: 0 !important;
+    font-size: 26px!important;
+    font-weight: bold;
+}
+
+.registry-right-form .phase-blk .single-input-item {
+    width: 89%;
+}
+
+.registry-right-form .phase-blk .single-input-item input {
+    margin: 0;
+}
+
+.registry-right-form .registry-title {
+    margin-bottom: 54px;
+}
+
+.invite-user span {
+    border: 0;
+    font-size: 18px;
+    color: #dedede;
+    margin-right: 11px !important;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.invite-user {
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 62px;
+    margin-top: 40px;
+}
+
+.invite-user span.active .user-box {
+    display: block;
+}
+
+.user-box {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background: #eee;
+    width: 200px;
+    font-size: 13px;
+    color: #707070;
+    height: 45px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.user-box::after {
+    position: absolute;
+    top: -17px;
+    width: 29px;
+    height: 29px;
+    background-color: #eee;
+    content: '';
+    clip-path: polygon(100% 3%, 0% 100%, 100% 100%);
+    border-radius: 7px;
+    right: 0px;
+}
+
+
+/* client view registration End */
+
+
+/* client view registration 2 start */
+
+.mbx-left-content.regitry-form2 .single-input-item {
+    width: 100%;
+}
+
+.mbx-left-content.regitry-form2 {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.mbx-left-content.regitry-form2 .registry-form-txt p {
+    margin-left: 40px;
+    padding-right: 0;
+}
+
+
+/* client view registration 2 End */
+
+
+/* Control panel start */
+
+.control-panel-right .phase-blk {
+    margin: 0;
+}
+
+.control-panel-right .phase-blk .common-field {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.control-panel-right .phase-blk .common-field.shop {
+    width: 130px;
+}
+
+.mbx-bottom-right-content.control-panel-right-blk {
+    padding-left: 40px;
+}
+
+.progress-circle {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.progress-circle-rate p {
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.progress-circle-rate span {
+    font-size: 22px;
+}
+
+svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    overflow: visible !important;
+}
+
+svg circle {
+     transition: stroke-dashoffset 1s;
+     width: 100%;
+     height: 100%;
+     fill: none;
+     stroke: #dcdcdc;
+     stroke-width: 1;
+     stroke-linecap: round;
+     transform: translate(0px, 0px);
+}
+
+svg circle:last-child {
+    stroke: #fc6b6b;
+    stroke-width: 5;
+}
+
+.control-panel-btn a {
+    height: 55px;
+    width: auto;
+    display: inline-block;
+    border-radius: 21px;
+    margin-top: 20px;
+    padding-left: 30px;
+    transition: .4s;
+    letter-spacing: 0.5px;
+    color: #fc6b6b !important;
+    cursor: pointer;
+    padding-right: 30px;
+    line-height: 52px;
+}
+
+.cnt-panel-p {
+    position: relative;
+    top: -40px;
+    font-size: 24px !important;
+    padding-left: 25px;
+}
+
+.control-panel-left-blk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step-btn a {
+    height: 60px;
+    width: auto;
+    display: inline-block;
+    background: #d8d8d8;
+    border-radius: 21px;
+    margin-bottom: 25px;
+    color: #707070;
+    letter-spacing: .5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.control-panel-step-bar .step-bar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+}
+
+.control-panel-step-bar .step-bar ul li {
+    position: relative;
+    background: transparent;
+    width: auto;
+    cursor: pointer;
+    padding-left: 40px;
+    height: 115px;
+    color: #E0DFDF;
+    font-weight: 600;
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+
+.control-panel-step-bar .step-bar ul li.active {
+    color: #707070;
+}
+
+.control-panel-step-bar .step-bar ul li.active .step-btn {
+    display: block;
+}
+
+.step-btn {
+    display: none;
+}
+
+.control-panel-step-bar .step-bar ul li::after {
+    top: 15px;
+}
+
+.control-panel-step-bar .step-bar ul li::before {
+    position: absolute;
+    background: #707070;
+    height: 100%;
+    cursor: pointer;
+    width: 1px !important;
+    content: '';
+    left: 2px;
+    top: 8px;
+    z-index: 1;
+}
+
+.step-btn a {
+    width: 120px;
+    font-size: 18px;
+    text-align: center;
+    height: 48px;
+    line-height: 49px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.control-panel-step-bar .common-step-bar-blk {
+    margin-top: 40px;
+    height: 400px;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+.control-panel-step-bar {
+    padding-left: 80px;
+}
+
+.control-panel-step-bar p {
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+
+/* Control panel end */
+
+
+/* Kick off start */
+
+.kick-off-main {
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    z-index: 2;
+}
+
+.kick-play {
+    font-size: 50px;
+    color: #c4c4c4;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.kick-play span {
+    display: block;
+    font-size: 22px;
+    margin-top: 30px;
+    color: #707070;
+}
+
+.kick-off-content p {
+    font-size: 20px;
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 115px;
+    background: #fff;
+    text-align: center;
+    z-index: 5;
+}
+
+.kick-off-content {
+    position: relative;
+    z-index: 9;
+}
+
+.bottom-bar p {
+    font-size: 18px;
+    margin: 0;
+    margin-top: -20px;
+}
+
+.kick-bar img {
+    height: 40px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    cursor: pointer;
+    top: -20px;
+}
+
+.kick-off-btn a {
+    height: 55px;
+    width: auto;
+    display: inline-block;
+    background: #91E38D;
+    border-radius: 21px;
+    margin-top: 20px;
+    padding-left: 105px;
+    transition: .4s;
+    letter-spacing: 0.5px;
+    color: #fff;
+    cursor: pointer;
+    padding-right: 105px;
+    line-height: 55px;
+    position: relative;
+    top: -41px;
+}
+
+
+/* Kick off end */
+
+
+/* Brand compass   start */
+
+.kick-off-main.with-bg-left::after {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    top: 0;
+    height: 100%;
+    background: #E8E8E8;
+    content: '';
+    z-index: 1;
+}
+
+
+/* The container */
+
+.conntainer {
+    display: block;
+    position: relative;
+    padding-left: 33px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 50px;
+}
+
+
+/* Hide the browser's default radio button */
+
+.conntainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #707070;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.conntainer:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.conntainer input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.conntainer .checkmark::after {
+    top: 3px;
+    left: 3px;
+    width: 9px;
+    height: 10px;
+    border-radius: 50%;
+    background: #707070;
+}
+
+.bottom-bar.fr-padding {
+    padding: 50px 0;
+    padding-left: 230px;
+    padding-right: 170px;
+    height: 115px;
+}
+
+.kick-radio {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 2px;
+}
+
+.kick-input {
+    max-width: 530px;
+    flex: 0 0 80%;
+    margin-right: 30px;
+}
+
+.kick-input input {
+    height: 40px;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    border: 1px solid #707070;
+    padding-left: 25px;
+    font-size: 16px;
+    color: #707070;
+    width: 100%;
+}
+
+.kick-common-bottom-blk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kick-common-right-blk {
+    flex: 0 0 48%;
+}
+
+.kick-bottom-form {
+    display: flex;
+    align-items: center;
+}
+
+.kick-bottom-form .sub-btn {
+    height: 40px;
+    font-size: 19px;
+    color: #fff;
+    line-height: 11px;
+    width: 175px;
+    margin: 0;
+}
+
+.back-btn.kick-back {
+    bottom: 34px;
+}
+
+.kick-common-bottom-left {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 45%;
+    align-items: center;
+}
+
+.kick-range span {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+}
+
+.kick-range span img {
+    margin: 0 10px;
+}
+
+.kick-bar {
+    height: 20px;
+    width: 100%;
+    background: #DDDDDD;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.kick-bar img {
+    display: none;
+}
+
+.kick-bar::after {
+    position: absolute;
+    left: 1px;
+    top: -21px;
+    background: #dddddd;
+    content: '\f078';
+    color: #fff;
+    width: 35px;
+    height: 30px;
+    border-radius: 7px 7px 0 0;
+    font-family: "Font Awesome 5 Pro";
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+
+/* Brand compass   end */
+
+
+/* Panel project   start */
+
+.panel-options .common-field {
+    text-align: center;
+    padding: 0;
+    line-height: 62px;
+}
+
+.product-btn a {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding: 0;
+    line-height: 62px;
+}
+
+
+/* Panel project  end */
+
+
+/* Shop area  start */
+
+.stratigist-thumb.product-thumb img {
+    max-height: 300px;
+    margin-bottom: 20px;
+    height: 265px;
+}
+
+.product {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+}
+
+.product-item {
+    margin-bottom: 25px;
+}
+
+
+/* Shop area  end */
+
+
+/* My team area  start */
+
+.my-team-blk {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.my-team-title p {
+    font-size: 19px;
+    text-align: center;
+    margin: 0;
+}
+
+.my-team-title p span {
+    position: relative;
+    top: 1px;
+    margin-right: 3px;
+    color: #999999;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.strategist-select span {
+    background: #999999;
+    border-radius: 49px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    line-height: 29px;
+    color: #fff;
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    right: 3px;
+}
+
+.strategist-select span i {
+    position: relative;
+    left: 1px;
+}
+
+.stratigist-item.my-team-item {
+    margin-bottom: 30px;
+}
+
+
+/* My team area  end */
+
+
+/* Research area  start */
+
+.research-area {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    min-height: 90vh;
+}
+
+.research-txt-blk p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.research-txt-blk span {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 19px;
+}
+
+.research-txt-blk.common p {
+    max-width: 370px;
+    line-height: 1.4;
+    font-size: 16;
+    margin-top: 30px;
+}
+
+.research-btn a {
+    display: inline-block;
+    background: #E8E8E8;
+    width: auto;
+    text-align: center;
+    padding: 0;
+    line-height: 61px;
+    color: #9D9D9D;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.research-txt-blk.common {
+    padding-top: 60px;
+}
+
+.research-area.last {
+    min-height: 75vh;
+}
+
+
+/* Research area  end */
+
+
+/* brand compass purpose  start */
+
+.kick-control-bar::after {
+    position: absolute;
+    left: 1px;
+    top: -21px;
+    background: #dddddd;
+    content: '\f078';
+    color: #fff;
+    width: 35px;
+    height: 30px;
+    border-radius: 7px 7px 0 0;
+    font-family: "Font Awesome 5 Pro";
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.kick-control-bar {
+    background: #ddd;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -110px;
+    height: auto;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.kick-control-left-blk {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 75%;
+}
+
+.kick-control-right-blk {
+    width: 300px;
+    text-align: left;
+}
+
+.kick-control-right-blk span {
+    display: inline-block;
+    margin-right: 50px;
+    max-width: 31px;
+    cursor: pointer;
+}
+
+.kick-single-item {
+    border-right: 1px solid #999999;
+    flex: 0 0 14%;
+    cursor: pointer;
+    padding: 9px 0;
+}
+
+.kick-single-item:last-child {
+    border: 0;
+}
+
+.kick-single-item p {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 6px;
+}
+
+.kick-single-item span img {
+    max-width: 40px;
+}
+
+.kick-off-main.with-bg-left.multiple-bg::after {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: #E8E8E8;
+    content: '';
+    z-index: 1;
+    max-width: 595px;
+    left: 0;
+    margin: 0 auto;
+}
+
+.kick-off-main.with-bg-left.multiple-bg::before {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    top: 0;
+    height: 100%;
+    background: #fff;
+    content: '';
+    z-index: 1;
+}
+
+.kick-off-main.with-bg-left.multiple-bg {
+    padding-bottom: 100px;
+}
+
+
+/* brand compass purpose  end */
+
+
+/* R1 area  start */
+
+.continue-btn {
+    position: absolute;
+    bottom: 34px;
+    right: 50px;
+    z-index: 6;
+}
+
+.continue-btn a {
+    font-size: 17px;
+    display: inline-block;
+}
+
+.continue-btn a i {
+    font-size: 13px;
+    margin-left: 6px;
+    color: #c4c4c4;
+}
+
+.kick-off-content span {
+    display: block;
+    font-size: 22px;
+    margin-top: 30px;
+    color: #707070;
+    margin-bottom: 80px;
+}
+
+.kick-play {
+    margin-bottom: 0;
+}
+
+
+/* R1 area  end */
+
+
+/* Voting result  start */
+
+.kick-multiple-blk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kick-play.kick-thumbs img {
+    max-height: 144px;
+}
+
+.kick-play.kick-r1 img {
+    max-width: 300px;
+    position: relative;
+    top: -40px;
+}
+
+.dif-txt {
+    margin: 0 !important;
+    margin-top: 15px !important;
+}
+
+.kick-hero-radio {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+.kick-hero-radio .conntainer {
+    padding-left: 0;
+    margin-right: 40px;
+}
+
+.kick-play.kick-bx img {
+    max-height: 185px;
+    margin-bottom: 25px;
+}
+
+
+/* Voting result  end */
+
+
+/* Comparativee R1  start */
+
+.comparative-kick-blk {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 47px;
+}
+
+.kick-comparative-item .kick-input input {
+    max-width: 295px;
+}
+
+.kick-comparative-item {
+    flex: 0 0 33.3%;
+}
+
+.bottom-bar.comparative-bottom-bar {
+    height: 140px;
+}
+
+.kick-comparative-item .kick-bottom-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.kick-comparative-item .conntainer {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.kick-comparative-item .kick-input {
+    margin-right: 0;
+}
+
+.kick-comparative-item .kick-bottom-form .sub-btn {
+    margin-left: 20px;
+}
+
+.kick-comparative-item .kick-bottom-form.with-btn {
+    right: -73px;
+    position: relative;
+}
+
+
+/* Comparativee R1  end */
+
+
+/* R3 area  start */
+
+.kick-play.kick-dif-img {
+    height: 195px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.R3-bottom-form .kick-input {
+    max-width: 295px;
+}
+
+.R3-bottom-form {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.bottom-bar.without-kick-bar {
+    height: 100px;
+}
+
+.bottom-bar.without-kick-bar p {
+    margin-top: -30px;
+}
+
+.bottom-bar.without-kick-bar .kick-off-btn a {
+    top: -50px;
+}
+
+
+/* R3 area  end */
+
+
+/* My project area  start */
+
+.my-project-form-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.my-project-contact-btn a {
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 62px;
+    margin: 0;
+}
+
+.my-project-form-top-left span {
+    font-size: 17px;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.my-project-form-top-left p {
+    font-size: 21px;
+    margin: 0;
+}
+
+.my-project-form textarea {
+    height: 150px;
+    border: 0;
+    outline: none;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    padding: 13px 23px;
+    width: 100%;
+    color: #707070;
+    resize: none;
+}
+
+.my-submit-btn .sub-btn {
+    height: 36px;
+    padding: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 17px;
+    color: #fff;
+}
+
+
+/* My project area  end */
+
+
+/* contract and invoice  start */
+
+.contract-navigation-wrap {
+    padding-top: 20px;
+    padding-bottom: 65px;
+}
+
+.contract-nav-title p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.contract-navigation a {
+    display: inline-block;
+    font-size: 17px;
+    margin-right: 35px;
+    transition: .4s;
+    color: #C3C3C3;
+}
+
+.contract-navigation a:hover,
+.contract-navigation a.active {
+    color: #707070;
+}
+
+.contrato {
+    padding: 50px 0;
+}
+
+.contrato a span {
+    font-size: 19px;
+    margin-left: 4px;
+}
+
+.contrato a {
+    font-size: 21px;
+    margin: 0;
+}
+
+.common-contract-content {
+    max-width: 750px;
+}
+
+.condition-of-service {
+    padding: 80px 0;
+}
+
+.condition-content p {
+    font-size: 17px;
+    letter-spacing: .2px;
+    margin: 0;
+}
+
+.condition-content span {
+    font-size: 21px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.payment-status {
+    padding: 80px 0;
+}
+
+.payment-total-blk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total-txt p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.odds {
+    font-size: 19px;
+}
+
+.pay-btn .sub-btn {
+    height: 55px;
+    line-height: 56px;
+    padding: 1px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.cotract-administrator {
+    padding: 90px;
+    padding-bottom: 110px;
+}
+
+.administrator-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 580px;
+}
+
+.administrator-form textarea {
+    height: 200px;
+    margin-right: 30px;
+}
+
+
+/* contract and invoice  end */
+
+
+/* Big bang proposal start */
+
+.big-bang-proposal-hero {
+    min-height: 50vh;
+    height: 100%;
+    padding-top: 130px;
+    padding-bottom: 160px;
+}
+
+.beginning-area {
+    height: 100%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.big-bang-proposal-hero p {
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.big-proposal-content span {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.big-proposal-content p {
+    font-size: 18px;
+}
+
+.big-proposal-content {
+    margin-bottom: 120px;
+}
+
+.big-bang-common-blk span {
+    font-size: 18px;
+    display: block;
+}
+
+.big-bang-common-blk p {
+    max-width: 370px;
+    font-size: 17px;
+    letter-spacing: .3px;
+    margin-bottom: 60px;
+}
+
+.big-bang-option .common-field {
+    text-align: center;
+    background: #e8e8e8;
+    margin-bottom: 30px;
+}
+
+.all-contact-points {
+    padding-top: 120px;
+    padding-bottom: 250px;
+}
+
+.all-contact-point-txt span {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.all-contact-point-txt p {
+    font-size: 17px;
+    max-width: 800px;
+}
+
+.all-contact-points .big-bang-options-wrap {
+    margin-top: 100px;
+}
+
+.add-point-blk {
+    margin-top: 85px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.add-point-left-blk {
+    flex: 0 0 50%;
+    border-right: 1px solid #707070;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+.add-point-right-blk {
+    flex: 0 0 44%;
+    padding-left: 150px;
+}
+
+.add-point-left-blk p {
+    font-size: 21px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 510px;
+    text-align: right;
+}
+
+.add-point-right-blk p {
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.add-point-right-blk p.point-total-txt {
+    font-size: 30px;
+}
+
+.point-sub-blk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.point-sub-blk .common-field {
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    width: 144px;
+    height: 53px;
+    margin: 0;
+    line-height: 53px;
+}
+
+.point-sub-blk span {
+    font-size: 19px;
+}
+
+
+/* Big bang proposal end */
+
+
+/* Brand comnpass validation start */
+
+.big-bang-single-content span {
+    font-size: 18px;
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+
+.brand-compass-bottom .kick-bottom-form {
+    justify-content: flex-end;
+}
+
+.brand-compass-bottom .kick-common-right-blk {
+    flex: 0 0 52%;
+}
+
+.brand-compass-bottom .kick-bottom-form p {
+    font-size: 18px;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.brand-compass-bottom .conntainer {
+    margin-right: 42px;
+}
+
+.brand-compass-bottom {
+    background-color: #fff;
+    padding: 45px 0;
+}
+
+.brand-compass-bottom .kick-bottom-form .sub-btn {
+    height: 43px;
+    color: #fff;
+    width: 150px;
+    background: #c7c7c7;
+}
+
+
+/* Brand comnpass validation end */
+
+
+/* Territory area start */
+
+.territory-main-blk {
+    background: #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.single-territory-item {
+    flex: 0 0 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-territory-item.dif::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c7c7c7;
+    content: '';
+    z-index: -1;
+}
+
+.single-territory-item p {
+    font-size: 21px;
+    margin: 0;
+}
+
+.territory-txt {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.territory-count {
+    padding-bottom: 15px;
+}
+
+.brand-compass-bottom:last-child {
+    padding-bottom: 300px;
+}
+
+
+/* Territory area end */
+
+
+/* MI MBX start */
+
+.mi-mbx-main {
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+.my-mbx-title {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mi-project-btn a {
+    width: 155px;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 19px;
+}
+
+.my-mbx-title p {
+    font-size: 21px;
+    margin: 0;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .step-bar ul li {
+    font-weight: 400;
+    font-size: 21px;
+    padding-left: 0;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .step-bar ul li span {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar {
+    padding-right: 60px;
+    padding-top: 1px;
+}
+
+.mi-steps p {
+    font-size: 18px;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .step-bar ul {
+    height: 800px;
+    width: auto;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .common-step-bar-blk {
+    height: 750px;
+}
+
+.step-top-blk {
+    padding-left: 30px;
+    margin-bottom: 10px;
+    position: relative;
+  font-weight: bold;
+
+    margin-top: -22px;
+}
+
+.mi-steps {
+    padding: 15px 0;
+    padding-left: 30px;
+    transition: .4s;
+    position: relative;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .step-bar ul li:hover {
+    color: #707070;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .step-bar ul li::before {
+    height: 100%;
+}
+
+.mi-step-badge {
+    height: 35px;
+    width: 35px;
+    background: #FC6B6B;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 21px;
+    position: absolute;
+    right: 20px;
+    top: 19px;
+}
+
+.archive-research-alert p {
+    font-size: 17px;
+    color: #FC6B6B;
+}
+
+.archive-research-alert p:first-child {
+    font-size: 19px;
+}
+
+.mi-mbx-step-blk .step-bar {
+    padding-top: 25px;
+}
+
+.mbx-research-title p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.mi-mbx-research {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.single-research-item {
+    padding-bottom: 28px;
+    margin-bottom: 45px;
+    padding-left: 10px;
+    margin-right: 25px;
+}
+
+.sngl-research-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.single-research p {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.single-research p span {
+    font-size: 19px;
+    color: #999;
+    cursor: pointer;
+}
+
+.archive-research-scroll {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+
+/* MI MBX end */
+
+
+/* Panel Project-1 start */
+
+.panel-project-1 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.customer-calender-blk {
+    padding-top: 50px;
+}
+
+.customer-calender-select {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calender-select-option {
+    height: 140px;
+    width: 170px;
+    border: 1px solid #707070;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.customer-calender-scroll {
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.mbx-main-blk.panel-project-2 {
+    padding-top: 150px;
+}
+
+.mbx-badge {
+    height: 30px;
+    width: 30px;
+    background: #FC6B6B;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 31px;
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    right: -5px;
+    top: -10px;
+}
+
+
+/* Panel Project-1 end */
+
+
+/* kick-off project start */
+
+.project-view-click .sub-btn {
+    height: 43px;
+    padding: 0;
+    font-size: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    line-height: 43px;
+    margin: 0;
+}
+
+.project-view-bar-blk {
+    padding-top: 49px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 100px;
+    align-items: center;
+}
+
+.project-view-btn-blk {
+    display: flex;
+    flex: 0 0 65%;
+}
+
+.project-view-btn-blk a span {
+    font-size: 17px;
+    color: #C7C7C7;
+}
+
+.project-view-btn-blk a {
+    margin-right: 35px;
+    transition: .4s;
+    color: #707070;
+    font-size: 19px;
+}
+
+.project-view-btn-blk a:hover {
+    color: #707070;
+}
+
+.kick-bar.users::after {
+    display: none;
+}
+
+/* kick-off project end */
+
+/* brand compass proposal project start */
+
+.bottom-bar.project-view-br .kick-common-bottom-blk {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.bottom-bar.project-view-br {
+    height: 160px;
+}
+
+.bottom-bar.project-view-br .project-view-bar-blk {
+    padding-top: 43px;
+}
+
+.bottom-bar.project-view-br .kick-common-bottom-blk .project-view-btn-blk {
+    flex: 0 auto;
+}
+
+.back-btn.project-view-back {
+    bottom: 50px;
+}
+
+
+/* brand compass proposal project end */
+
+
+/* Client View CSS end */
+
+.v-application a {
+    color: #424242 !important;
+}

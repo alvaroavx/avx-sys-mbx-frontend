@@ -1,0 +1,662 @@
+[
+  {
+    "name": "ajustes",
+    "path": "/ajustes",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/ajustes.vue",
+    "chunkName": "pages/ajustes"
+  },
+  {
+    "name": "big-bang-workshop",
+    "path": "/big-bang-workshop",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/big-bang-workshop.vue",
+    "chunkName": "pages/big-bang-workshop"
+  },
+  {
+    "name": "big-bang-workshop-project",
+    "path": "/big-bang-workshop-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/big-bang-workshop-project.vue",
+    "chunkName": "pages/big-bang-workshop-project"
+  },
+  {
+    "name": "big-bang-workshop-proposal",
+    "path": "/big-bang-workshop-proposal",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/big-bang-workshop-proposal.vue",
+    "chunkName": "pages/big-bang-workshop-proposal"
+  },
+  {
+    "name": "bmc",
+    "path": "/bmc",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/bmc.vue",
+    "chunkName": "pages/bmc"
+  },
+  {
+    "name": "brand-compass",
+    "path": "/brand-compass",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/brand-compass.vue",
+    "chunkName": "pages/brand-compass"
+  },
+  {
+    "name": "brand-compass-project",
+    "path": "/brand-compass-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/brand-compass-project.vue",
+    "chunkName": "pages/brand-compass-project"
+  },
+  {
+    "name": "brand-compass-proposal-direction-1",
+    "path": "/brand-compass-proposal-direction-1",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/brand-compass-proposal-direction-1.vue",
+    "chunkName": "pages/brand-compass-proposal-direction-1"
+  },
+  {
+    "name": "Brand-Compass-Proposals",
+    "path": "/Brand-Compass-Proposals",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Brand-Compass-Proposals.vue",
+    "chunkName": "pages/Brand-Compass-Proposals"
+  },
+  {
+    "name": "Brand-Compass-Proposals-direction",
+    "path": "/Brand-Compass-Proposals-direction",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Brand-Compass-Proposals-direction.vue",
+    "chunkName": "pages/Brand-Compass-Proposals-direction"
+  },
+  {
+    "name": "Brand-Compass-Proposals-directions-project",
+    "path": "/Brand-Compass-Proposals-directions-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Brand-Compass-Proposals-directions-project.vue",
+    "chunkName": "pages/Brand-Compass-Proposals-directions-project"
+  },
+  {
+    "name": "Brand-Compass-Proposals-purpose-1",
+    "path": "/Brand-Compass-Proposals-purpose-1",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Brand-Compass-Proposals-purpose-1.vue",
+    "chunkName": "pages/Brand-Compass-Proposals-purpose-1"
+  },
+  {
+    "name": "Brand-Compass-Proposals-purpose-1-project",
+    "path": "/Brand-Compass-Proposals-purpose-1-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Brand-Compass-Proposals-purpose-1-project.vue",
+    "chunkName": "pages/Brand-Compass-Proposals-purpose-1-project"
+  },
+  {
+    "name": "Brand-Compass-Proposals-purpose-1-project-1",
+    "path": "/Brand-Compass-Proposals-purpose-1-project-1",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Brand-Compass-Proposals-purpose-1-project-1.vue",
+    "chunkName": "pages/Brand-Compass-Proposals-purpose-1-project-1"
+  },
+  {
+    "name": "Brand-Compass-Proposals-territory-project",
+    "path": "/Brand-Compass-Proposals-territory-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Brand-Compass-Proposals-territory-project.vue",
+    "chunkName": "pages/Brand-Compass-Proposals-territory-project"
+  },
+  {
+    "name": "brand-compass-validation",
+    "path": "/brand-compass-validation",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/brand-compass-validation.vue",
+    "chunkName": "pages/brand-compass-validation"
+  },
+  {
+    "name": "Business-Idea-Workshop",
+    "path": "/Business-Idea-Workshop",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Business-Idea-Workshop.vue",
+    "chunkName": "pages/Business-Idea-Workshop"
+  },
+  {
+    "name": "Business-Idea-Workshop-project",
+    "path": "/Business-Idea-Workshop-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Business-Idea-Workshop-project.vue",
+    "chunkName": "pages/Business-Idea-Workshop-project"
+  },
+  {
+    "name": "buy-mbx",
+    "path": "/buy-mbx",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/buy-mbx.vue",
+    "chunkName": "pages/buy-mbx"
+  },
+  {
+    "name": "client",
+    "path": "/client",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/client.vue",
+    "chunkName": "pages/client"
+  },
+  {
+    "name": "client-view-registration",
+    "path": "/client-view-registration",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/client-view-registration.vue",
+    "chunkName": "pages/client-view-registration"
+  },
+  {
+    "name": "client-view-registration-2",
+    "path": "/client-view-registration-2",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/client-view-registration-2.vue",
+    "chunkName": "pages/client-view-registration-2"
+  },
+  {
+    "name": "clients-b2b",
+    "path": "/clients-b2b",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/clients-b2b.vue",
+    "chunkName": "pages/clients-b2b"
+  },
+  {
+    "name": "comparative-R1",
+    "path": "/comparative-R1",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/comparative-R1.vue",
+    "chunkName": "pages/comparative-R1"
+  },
+  {
+    "name": "comparative-R1-project",
+    "path": "/comparative-R1-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/comparative-R1-project.vue",
+    "chunkName": "pages/comparative-R1-project"
+  },
+  {
+    "name": "contact-point-proposal",
+    "path": "/contact-point-proposal",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/contact-point-proposal.vue",
+    "chunkName": "pages/contact-point-proposal"
+  },
+  {
+    "name": "contact-point-proposal-project",
+    "path": "/contact-point-proposal-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/contact-point-proposal-project.vue",
+    "chunkName": "pages/contact-point-proposal-project"
+  },
+  {
+    "name": "contract-and-invoice",
+    "path": "/contract-and-invoice",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/contract-and-invoice.vue",
+    "chunkName": "pages/contract-and-invoice"
+  },
+  {
+    "name": "control-panel",
+    "path": "/control-panel",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/control-panel.vue",
+    "chunkName": "pages/control-panel"
+  },
+  {
+    "name": "control-panel-2",
+    "path": "/control-panel-2",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/control-panel-2.vue",
+    "chunkName": "pages/control-panel-2"
+  },
+  {
+    "name": "control-panel-x",
+    "path": "/control-panel-x",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/control-panel-x.vue",
+    "chunkName": "pages/control-panel-x"
+  },
+  {
+    "name": "evaluate-suitable",
+    "path": "/evaluate-suitable",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/evaluate-suitable.vue",
+    "chunkName": "pages/evaluate-suitable"
+  },
+  {
+    "name": "final-delivary",
+    "path": "/final-delivary",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/final-delivary.vue",
+    "chunkName": "pages/final-delivary"
+  },
+  {
+    "name": "final-delivary-project",
+    "path": "/final-delivary-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/final-delivary-project.vue",
+    "chunkName": "pages/final-delivary-project"
+  },
+  {
+    "name": "final-logo",
+    "path": "/final-logo",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/final-logo.vue",
+    "chunkName": "pages/final-logo"
+  },
+  {
+    "name": "final-logo-project",
+    "path": "/final-logo-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/final-logo-project.vue",
+    "chunkName": "pages/final-logo-project"
+  },
+  {
+    "name": "home",
+    "path": "/home",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/home.vue",
+    "chunkName": "pages/home"
+  },
+  {
+    "name": "kick-day-selection",
+    "path": "/kick-day-selection",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/kick-day-selection.vue",
+    "chunkName": "pages/kick-day-selection"
+  },
+  {
+    "name": "kick-off",
+    "path": "/kick-off",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/kick-off.vue",
+    "chunkName": "pages/kick-off"
+  },
+  {
+    "name": "kick-off-project",
+    "path": "/kick-off-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/kick-off-project.vue",
+    "chunkName": "pages/kick-off-project"
+  },
+  {
+    "name": "learn-how-mbx",
+    "path": "/learn-how-mbx",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/learn-how-mbx.vue",
+    "chunkName": "pages/learn-how-mbx"
+  },
+  {
+    "name": "mbx-pro",
+    "path": "/mbx-pro",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/mbx-pro.vue",
+    "chunkName": "pages/mbx-pro"
+  },
+  {
+    "name": "mbx-process-detail",
+    "path": "/mbx-process-detail",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/mbx-process-detail.vue",
+    "chunkName": "pages/mbx-process-detail"
+  },
+  {
+    "name": "Mi-MBX",
+    "path": "/Mi-MBX",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mi-MBX.vue",
+    "chunkName": "pages/Mi-MBX"
+  },
+  {
+    "name": "Mi-MBX-1",
+    "path": "/Mi-MBX-1",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mi-MBX-1.vue",
+    "chunkName": "pages/Mi-MBX-1"
+  },
+  {
+    "name": "miroespacio",
+    "path": "/miroespacio",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/miroespacio.vue",
+    "chunkName": "pages/miroespacio"
+  },
+  {
+    "name": "Mis-MBX",
+    "path": "/Mis-MBX",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mis-MBX.vue",
+    "chunkName": "pages/Mis-MBX"
+  },
+  {
+    "name": "my-project",
+    "path": "/my-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/my-project.vue",
+    "chunkName": "pages/my-project"
+  },
+  {
+    "name": "my-team",
+    "path": "/my-team",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/my-team.vue",
+    "chunkName": "pages/my-team"
+  },
+  {
+    "name": "Panel-project",
+    "path": "/Panel-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Panel-project.vue",
+    "chunkName": "pages/Panel-project"
+  },
+  {
+    "name": "Panel-project-1",
+    "path": "/Panel-project-1",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Panel-project-1.vue",
+    "chunkName": "pages/Panel-project-1"
+  },
+  {
+    "name": "panel-project-2",
+    "path": "/panel-project-2",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/panel-project-2.vue",
+    "chunkName": "pages/panel-project-2"
+  },
+  {
+    "name": "payment",
+    "path": "/payment",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/payment.vue",
+    "chunkName": "pages/payment"
+  },
+  {
+    "name": "Pre-agenda",
+    "path": "/Pre-agenda",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Pre-agenda.vue",
+    "chunkName": "pages/Pre-agenda"
+  },
+  {
+    "name": "program-selection",
+    "path": "/program-selection",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/program-selection.vue",
+    "chunkName": "pages/program-selection"
+  },
+  {
+    "name": "proposal-contact-1",
+    "path": "/proposal-contact-1",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/proposal-contact-1.vue",
+    "chunkName": "pages/proposal-contact-1"
+  },
+  {
+    "name": "proposal-contact-a",
+    "path": "/proposal-contact-a",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/proposal-contact-a.vue",
+    "chunkName": "pages/proposal-contact-a"
+  },
+  {
+    "name": "R1",
+    "path": "/R1",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/R1.vue",
+    "chunkName": "pages/R1"
+  },
+  {
+    "name": "R1-logo",
+    "path": "/R1-logo",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/R1-logo.vue",
+    "chunkName": "pages/R1-logo"
+  },
+  {
+    "name": "R1-logo-project",
+    "path": "/R1-logo-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/R1-logo-project.vue",
+    "chunkName": "pages/R1-logo-project"
+  },
+  {
+    "name": "R1-project",
+    "path": "/R1-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/R1-project.vue",
+    "chunkName": "pages/R1-project"
+  },
+  {
+    "name": "R2",
+    "path": "/R2",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/R2.vue",
+    "chunkName": "pages/R2"
+  },
+  {
+    "name": "R2-project",
+    "path": "/R2-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/R2-project.vue",
+    "chunkName": "pages/R2-project"
+  },
+  {
+    "name": "R3",
+    "path": "/R3",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/R3.vue",
+    "chunkName": "pages/R3"
+  },
+  {
+    "name": "R3-project",
+    "path": "/R3-project",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/R3-project.vue",
+    "chunkName": "pages/R3-project"
+  },
+  {
+    "name": "registry",
+    "path": "/registry",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/registry.vue",
+    "chunkName": "pages/registry"
+  },
+  {
+    "name": "research",
+    "path": "/research",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/research.vue",
+    "chunkName": "pages/research"
+  },
+  {
+    "name": "research2",
+    "path": "/research2",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/research2.vue",
+    "chunkName": "pages/research2"
+  },
+  {
+    "name": "return-text-example",
+    "path": "/return-text-example",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/return-text-example.vue",
+    "chunkName": "pages/return-text-example"
+  },
+  {
+    "name": "revision",
+    "path": "/revision",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/revision.vue",
+    "chunkName": "pages/revision"
+  },
+  {
+    "name": "schedule-meeting",
+    "path": "/schedule-meeting",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/schedule-meeting.vue",
+    "chunkName": "pages/schedule-meeting"
+  },
+  {
+    "name": "schedule-meeting-2",
+    "path": "/schedule-meeting-2",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/schedule-meeting-2.vue",
+    "chunkName": "pages/schedule-meeting-2"
+  },
+  {
+    "name": "select-team",
+    "path": "/select-team",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/select-team.vue",
+    "chunkName": "pages/select-team"
+  },
+  {
+    "name": "selection-of-strategists",
+    "path": "/selection-of-strategists",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/selection-of-strategists.vue",
+    "chunkName": "pages/selection-of-strategists"
+  },
+  {
+    "name": "Shop",
+    "path": "/Shop",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Shop.vue",
+    "chunkName": "pages/Shop"
+  },
+  {
+    "name": "strategist",
+    "path": "/strategist",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/strategist.vue",
+    "chunkName": "pages/strategist"
+  },
+  {
+    "name": "timeline-proposal",
+    "path": "/timeline-proposal",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/timeline-proposal.vue",
+    "chunkName": "pages/timeline-proposal"
+  },
+  {
+    "name": "typeresearach",
+    "path": "/typeresearach",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/typeresearach.vue",
+    "chunkName": "pages/typeresearach"
+  },
+  {
+    "name": "video",
+    "path": "/video",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/video.vue",
+    "chunkName": "pages/video"
+  },
+  {
+    "name": "video-presentation",
+    "path": "/video-presentation",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/video-presentation.vue",
+    "chunkName": "pages/video-presentation"
+  },
+  {
+    "name": "videoc",
+    "path": "/videoc",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/videoc.vue",
+    "chunkName": "pages/videoc"
+  },
+  {
+    "name": "voting-result",
+    "path": "/voting-result",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/voting-result.vue",
+    "chunkName": "pages/voting-result"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-1-copia-31",
+    "path": "/last/Mesa-de-trabajo-1-copia-31",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-1-copia-31.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-1-copia-31"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-1-copia-34",
+    "path": "/last/Mesa-de-trabajo-1-copia-34",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-1-copia-34.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-1-copia-34"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-1-copia-35",
+    "path": "/last/Mesa-de-trabajo-1-copia-35",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-1-copia-35.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-1-copia-35"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-1-copia-36",
+    "path": "/last/Mesa-de-trabajo-1-copia-36",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-1-copia-36.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-1-copia-36"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-1-copia-37",
+    "path": "/last/Mesa-de-trabajo-1-copia-37",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-1-copia-37.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-1-copia-37"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-1-copia-38",
+    "path": "/last/Mesa-de-trabajo-1-copia-38",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-1-copia-38.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-1-copia-38"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-1-copia-39",
+    "path": "/last/Mesa-de-trabajo-1-copia-39",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-1-copia-39.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-1-copia-39"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-1-copia-40",
+    "path": "/last/Mesa-de-trabajo-1-copia-40",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-1-copia-40.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-1-copia-40"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-1-copia-41",
+    "path": "/last/Mesa-de-trabajo-1-copia-41",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-1-copia-41.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-1-copia-41"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-1-copia-42",
+    "path": "/last/Mesa-de-trabajo-1-copia-42",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-1-copia-42.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-1-copia-42"
+  },
+  {
+    "name": "last-Mesa-de-trabajo-67",
+    "path": "/last/Mesa-de-trabajo-67",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/last/Mesa-de-trabajo-67.vue",
+    "chunkName": "pages/last/Mesa-de-trabajo-67"
+  },
+  {
+    "name": "Mbx-complete-work-table-1",
+    "path": "/Mbx-complete/work-table-1",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-1.vue",
+    "chunkName": "pages/Mbx-complete/work-table-1"
+  },
+  {
+    "name": "Mbx-complete-work-table-10",
+    "path": "/Mbx-complete/work-table-10",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-10.vue",
+    "chunkName": "pages/Mbx-complete/work-table-10"
+  },
+  {
+    "name": "Mbx-complete-work-table-11",
+    "path": "/Mbx-complete/work-table-11",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-11.vue",
+    "chunkName": "pages/Mbx-complete/work-table-11"
+  },
+  {
+    "name": "Mbx-complete-work-table-12",
+    "path": "/Mbx-complete/work-table-12",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-12.vue",
+    "chunkName": "pages/Mbx-complete/work-table-12"
+  },
+  {
+    "name": "Mbx-complete-work-table-13",
+    "path": "/Mbx-complete/work-table-13",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-13.vue",
+    "chunkName": "pages/Mbx-complete/work-table-13"
+  },
+  {
+    "name": "Mbx-complete-work-table-14",
+    "path": "/Mbx-complete/work-table-14",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-14.vue",
+    "chunkName": "pages/Mbx-complete/work-table-14"
+  },
+  {
+    "name": "Mbx-complete-work-table-15",
+    "path": "/Mbx-complete/work-table-15",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-15.vue",
+    "chunkName": "pages/Mbx-complete/work-table-15"
+  },
+  {
+    "name": "Mbx-complete-work-table-16",
+    "path": "/Mbx-complete/work-table-16",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-16.vue",
+    "chunkName": "pages/Mbx-complete/work-table-16"
+  },
+  {
+    "name": "Mbx-complete-work-table-2",
+    "path": "/Mbx-complete/work-table-2",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-2.vue",
+    "chunkName": "pages/Mbx-complete/work-table-2"
+  },
+  {
+    "name": "Mbx-complete-work-table-4",
+    "path": "/Mbx-complete/work-table-4",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-4.vue",
+    "chunkName": "pages/Mbx-complete/work-table-4"
+  },
+  {
+    "name": "Mbx-complete-work-table-5",
+    "path": "/Mbx-complete/work-table-5",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-5.vue",
+    "chunkName": "pages/Mbx-complete/work-table-5"
+  },
+  {
+    "name": "Mbx-complete-work-table-6",
+    "path": "/Mbx-complete/work-table-6",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-6.vue",
+    "chunkName": "pages/Mbx-complete/work-table-6"
+  },
+  {
+    "name": "Mbx-complete-work-table-7",
+    "path": "/Mbx-complete/work-table-7",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-7.vue",
+    "chunkName": "pages/Mbx-complete/work-table-7"
+  },
+  {
+    "name": "Mbx-complete-work-table-8",
+    "path": "/Mbx-complete/work-table-8",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-8.vue",
+    "chunkName": "pages/Mbx-complete/work-table-8"
+  },
+  {
+    "name": "Mbx-complete-work-table-9",
+    "path": "/Mbx-complete/work-table-9",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-9.vue",
+    "chunkName": "pages/Mbx-complete/work-table-9"
+  },
+  {
+    "name": "Mbx-complete-work-table-91",
+    "path": "/Mbx-complete/work-table-91",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/Mbx-complete/work-table-91.vue",
+    "chunkName": "pages/Mbx-complete/work-table-91"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/hugo/Documents/mbx_back/Front/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

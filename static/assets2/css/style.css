@@ -1,0 +1,1786 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap');
+/* Base CSS */
+
+
+.customer-chat-box textarea::placeholder,
+.customer-chat-box input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  
+  color: white;
+  opacity: 1; /* Firefox */
+}
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+a:focus {
+  outline: 0 solid
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px;
+  color: #fff;
+  font-family: 'Barlow', sans-serif;
+}
+
+body {
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Barlow', sans-serif;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+a:hover {
+  text-decoration: none
+}
+
+.container {
+  max-width: 1250px;
+}
+
+/* Header bar section start */
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 7;
+}
+
+.menu-open {
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  padding-top: 3px;
+}
+
+.logo-main a img {
+  max-width: 51px;
+}
+
+/* Header bar section  END */
+
+/*------------------ Main area Start --------------------*/
+
+.common-area {
+  min-height: 87vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .4px;
+  line-height: 24px;
+}
+
+.work-table-btn {
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+.work-table-btn a {
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 27px;
+}
+
+.common-border {
+  color: #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  padding: 10px 19px;
+  text-align: center;
+  font-weight: 700;
+  transition: .4s;
+  line-height: 1;
+  padding-bottom: 13px;
+}
+
+/*------------------ Work Table area Start --------------------*/
+
+.work-slider-wrapper {
+  position: relative;
+  padding: 0 45px;
+  padding-top: 83px;
+  padding-bottom: 100px;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  margin-top: -18px;
+}
+
+.slider-arrow button {
+  font-size: 20px;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.slider-dots button {
+  border: 0;
+  background: transparent;
+  height: 5px;
+  width: 5px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  transition: .4s;
+  padding: 2px;
+  margin: 0 17px;
+  cursor: pointer;
+}
+
+.slider-dots button:hover, .slider-dots button.active {
+  background-color: #FF4425;
+  border-color: #FF4425;
+}
+
+.work-slider-item p {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+/*------------------ Work Table area End --------------------*/
+
+/*------------------ Work Table-3 area Start --------------------*/
+
+.mbx-main-blk {
+  padding-top: 140px;
+}
+
+.control-panel-right .phase-blk {
+  margin: 0;
+}
+
+.control-panel-right .phase-blk .common-field {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.control-panel-right .phase-blk .common-field.shop {
+  width: 130px;
+}
+
+.mbx-bottom-right-content.control-panel-right-blk {
+  padding-left: 40px;
+}
+
+.progress-circle {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #707070;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.progress-circle-rate p {
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.progress-circle-rate span {
+  font-size: 22px;
+}
+
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  overflow: visible !important;
+}
+
+svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  transform: translate(0px, 0px);
+}
+
+svg circle:last-child {
+  stroke-dasharray: 498px;
+  stroke-dashoffset: 280;
+  stroke: #ff4425;
+  stroke-width: 5;
+}
+
+.control-panel-btn a {
+  display: inline-block;
+  background: transparent;
+  margin-top: 55px;
+  padding-left: 10px;
+  transition: .4s;
+  letter-spacing: 0.5px;
+  color: #FF4425;
+  cursor: pointer;
+  padding-right: 0;
+  line-height: 0;
+}
+
+.cnt-panel-p {
+  position: relative;
+  top: -40px;
+  font-size: 24px !important;
+  padding-left: 25px;
+}
+
+.control-panel-left-blk {
+  display: flex;
+  justify-content: space-between;
+}
+
+.control-panel-step-bar .step-bar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-direction: column;
+  height: 400px;
+  width: 350px;
+}
+
+.control-panel-step-bar .step-bar ul li {
+  position: relative;
+  background: transparent;
+  width: auto;
+  cursor: pointer;
+  padding-left: 40px;
+  height: 112px;
+  color: #E0DFDF;
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.control-panel-step-bar .step-bar ul li.active {
+  color: #fff;
+}
+
+.control-panel-step-bar .step-bar ul li.active .step-btn {
+  display: block;
+}
+
+.step-btn {
+  display: none;
+}
+
+.control-panel-step-bar .step-bar ul li::after {
+  top: 15px;
+}
+
+.control-panel-step-bar .step-bar ul li::before {
+  position: absolute;
+  background: #707070;
+  height: 100%;
+  cursor: pointer;
+  width: 1px !important;
+  content: '';
+  left: 2px;
+  top: 8px;
+  z-index: 1;
+}
+
+.control-panel-step-bar .common-step-bar-blk {
+  margin-top: 40px;
+  height: 300px;
+  overflow-y: scroll;
+  padding-left: 20px;
+  padding-top: 0;
+}
+
+.control-panel-step-bar {
+  padding-right: 80px;
+}
+
+.control-panel-step-bar p {
+  margin-bottom: 0;
+  font-size: 22px;
+}
+
+.control-panel-step-bar p span {
+  color: #FF4425;
+  font-weight: 600;
+}
+
+.control-panel-step-bar .step-bar ul li::before {
+  position: absolute;
+  background: #707070;
+  height: 100%;
+  cursor: pointer;
+  width: 1px !important;
+  content: '';
+  left: 2px;
+  top: 8px;
+  z-index: 1;
+}
+
+.step-bar ul li::after {
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  content: '';
+  border-radius: 50px;
+  background: #D0D0D0;
+  top: -5px;
+  left: -2px;
+  transition: .4s;
+  z-index: 1;
+}
+
+.progress-circle-rate p span {
+  font-size: 66px;
+  line-height: 1;
+  position: relative;
+  top: -27px;
+  margin-left: -19px;
+  margin-right: -25px;
+  display: inline-block;
+}
+
+.step-btn a {
+  margin-top: 20px;
+  padding: 11px 35px;
+  padding-bottom: 13px;
+}
+
+.mbx-menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 6;
+  height: 100%;
+  width: 24%;
+  background: #02BDDC;
+}
+
+.mbx-menu ul {
+  padding-top: 375px;
+  padding-left: 40px;
+  list-style: none;
+  margin: 0;
+}
+
+.mbx-menu ul li a {
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  padding: 10px 0;
+}
+
+.mbx-left-content h4 {
+  font-size: 25px;
+  margin-bottom: 90px;
+  font-weight: 700;
+}
+
+.mbx-left-content h4 span {
+  font-size: 38px;
+  display: block;
+}
+
+/*------------------ Work Table-3 area End --------------------*/
+
+/*------------------ Work Table-4 area Start --------------------*/
+
+.my-equipment-area {
+  position: relative;
+  padding-top: 100px;
+}
+
+.equipment-left-blk h4 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.equipment-btn a {
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  margin-bottom: 26px;
+  font-weight: 600;
+}
+
+.single-input-item input {
+  width: 100%;
+  max-width: 190px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+  margin-bottom: 45px;
+  padding: 7px 0;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+}
+
+input:focus {
+  border-bottom-color: #fff;
+}
+
+input::placeholder {
+  opacity: 1;
+}
+
+.submit-btn button {
+  margin-top: 35px;
+}
+
+button.common-border {
+  outline: none;
+  background: transparent;
+  border-right: 0;
+  border-left: 0;
+  border-color: #aeafb1;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.equipment-form {
+  padding-top: 125px;
+  flex: 0 0 auto;
+  margin-right: 60px;
+  margin-left: -70px;
+}
+
+.menu-icon {
+  position: absolute;
+  font-size: 20px;
+  color: #fff;
+  right: 22px;
+  top: 23px;
+}
+
+.single-equipment-item {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.equipment-thumb {
+  height: 112px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.equipment-thumb img {
+  width: 100%;
+  height: 100%;
+}
+
+.single-equipment-item h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.single-equipment-item p {
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+
+.equip-close {
+  position: absolute;
+  height: 19px;
+  width: 19px;
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+  top: -10px;
+  right: -7px;
+}
+
+.equipment-right-blk {
+  display: flex;
+}
+
+.equipment-item-blk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -5px;
+}
+
+.single-equipment {
+  flex: 0 0 33.3%;
+  padding: 7px;
+}
+
+.equip-right-bar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 27%;
+  background: #E0E0D5;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+}
+
+.equip-message {
+  padding: 30px;
+  padding-left: 40px;
+  padding-right: 55px;
+  padding-top: 0;
+  width: 100%;
+  max-width: 360px;
+}
+
+.equip-message h4 {
+  font-size: 16px;
+  color: #23262B;
+  font-weight: 700;
+}
+
+.equip-message textarea {
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+  color: #23262B;
+  border: 0;
+  border-bottom: 1px solid #7070709e;
+  background: transparent;
+  resize: none;
+  margin-top: 170px;
+  outline: none;
+}
+
+.equip-message button.common-border {
+  color: #23262B;
+  font-size: 12px;
+  padding-bottom: 9px;
+}
+
+.equip-open {
+  position: absolute;
+  top: 65px;
+  height: 24px;
+  width: 24px;
+  background: #e0e0d5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  left: -24px;
+  color: #23262B;
+  cursor: pointer;
+}
+
+textarea::placeholder {
+  opacity: 1;
+}
+
+.c-black {
+  color: #23262B!important;
+}
+
+/*------------------ Work Table-4 area End --------------------*/
+
+/*------------------ Work Table-6 area Start --------------------*/
+
+.profile-upload {
+  height: 20px;
+  width: 141px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.profile-upload input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.profile-upload p {
+  display: flex;
+  align-items: center;
+}
+
+.profile-upload span {
+  margin-right: 10px;
+}
+
+.account-wrapper h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.account-profile-blk {
+  width: 175px;
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.profile-thumb {
+  height: 146px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.profile-thumb img {
+  width: 100%;
+  height: 100%;
+}
+
+.account-blk {
+  display: flex;
+}
+
+.account-form-blk {
+  margin-left: 45px;
+}
+
+.account-form-wrapper {
+  max-width: 655px;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.single-input-item label {
+  display: flex;
+  font-size: 14px;
+  margin-bottom: -4px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-form-blk .single-input-item input {
+  max-width: 100%;
+}
+
+.account-form-blk button.common-border {
+  margin-top: 16px;
+}
+
+.account-right-menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 8;
+  height: 100%;
+  width: 400px;
+  background: #02BDDC;
+  padding: 30px;
+  transition: .4s;
+  text-align: right;
+}
+
+.account-right-menu ul {
+  padding-right: 52px;
+  margin: 0;
+  list-style: none;
+  padding-top: 150px;
+}
+
+.account-right-menu ul li a {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 23px;
+  display: block;
+}
+
+.menu-close {
+  position: absolute;
+  top: 18px;
+  font-size: 23px;
+  right: 82px;
+  cursor: pointer;
+}
+
+/*------------------ Work Table-6 area End --------------------*/
+
+/*------------------ Work Table-7 area Start --------------------*/
+
+.mi-mbx-main {
+  padding-bottom: 200px;
+  padding-top: 50px;
+}
+
+.my-mbx-title {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mi-project-btn a {
+  width: 155px;
+  height: 55px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 19px;
+}
+
+.my-mbx-title p {
+  font-size: 21px;
+  margin: 0;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .step-bar ul li {
+  font-weight: 400;
+  font-size: 21px;
+  padding-left: 0;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .step-bar ul li span {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar {
+  padding-right: 60px;
+  padding-top: 1px;
+}
+
+.mi-steps p {
+  font-size: 18px;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .step-bar ul {
+  height: 800px;
+  width: auto;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .common-step-bar-blk {
+  height: 750px;
+}
+
+.step-top-blk {
+  padding-left: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  position: relative;
+  margin-top: -22px;
+}
+
+.mi-steps {
+  padding: 15px 0;
+  padding-left: 30px;
+  transition: .4s;
+  position: relative;
+  border: 1px solid transparent;
+  border-right: 0;
+  margin-right: 25px;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .step-bar ul li:hover {
+  color: #707070;
+}
+
+.mi-mbx-step-blk .control-panel-step-bar .step-bar ul li::before {
+  height: 100%;
+}
+
+.mi-step-badge {
+  height: 35px;
+  width: 35px;
+  background: #e8412d;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  font-size: 21px;
+  position: absolute;
+  right: 20px;
+  top: 19px;
+}
+
+.archive-research-alert p {
+  font-size: 17px;
+  color: #FC6B6B;
+}
+
+.archive-research-alert p:first-child {
+  font-size: 19px;
+}
+
+.mi-mbx-step-blk .step-bar {
+  padding-top: 25px;
+}
+
+.mbx-research-title p {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.mi-mbx-research {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.single-research-item {
+  padding-bottom: 28px;
+  margin-bottom: 45px;
+  padding-left: 10px;
+  margin-right: 25px;
+}
+
+.sngl-research-title {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.single-research p {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.single-research p span {
+  font-size: 19px;
+  color: #999;
+  cursor: pointer;
+}
+
+.archive-research-scroll {
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.common-title h4 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.common-title span {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+.status-area .control-panel-step-bar .step-bar ul li {
+  color: #A7AAAC;
+}
+
+.status-area .control-panel-step-bar .step-bar ul li.active {
+  color: #fff;
+}
+
+.status-area .control-panel-step-bar .step-bar ul li::before {
+  left: 0;
+}
+
+.status-area .step-bar ul li::after {
+  left: -6px;
+  background-color: #53565c;
+}
+
+.status-area .control-panel-step-bar .step-bar ul li.active::after {
+  background-color: #fff;
+}
+
+.mi-steps.active {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-right: 0;
+  border-left: 0;
+}
+
+.st-content-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #E0E0D5;
+  height: 100%;
+  width: 100%;
+  padding: 60px;
+  max-width: 680px;
+}
+
+.status-content-blk {
+  max-width: 320px;
+  padding-top: 100px;
+}
+
+.st-btn-top a {
+  font-size: 16px;
+  color: #23262B;
+  padding: 8px 25px;
+  margin-right: 20px;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 20px;
+  transition: .4s;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.single-line span {
+  font-size: 18px;
+  color: #23262B;
+  display: inline-block;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.st-btn-top {
+  margin-bottom: 45px;
+}
+
+.st-btn-top a:hover, .st-btn-top a.active {
+  border-bottom: 1px solid #23262B9C;
+}
+
+.st-top {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #23262B9C;
+}
+
+.st-content h6 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #23262B;
+}
+
+.st-top p {
+  font-size: 13px;
+}
+
+.st-top h5 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 9px;
+}
+
+.st-content h6 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #23262B;
+}
+
+.single-content-blk {
+  padding-top: 50px;
+}
+
+.single-content-blk h4 {
+  font-size: 16px;
+  color: #23262B;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.single-line p {
+  font-size: 15px;
+  color: #23262B;
+  margin-bottom: 0;
+}
+
+.single-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+/*------------------ Work Table-7 area End --------------------*/
+
+/*------------------ Work Table-8 area Start --------------------*/
+
+.equip-diff .single-input-item input {
+  max-width: 100%;
+}
+
+.remove-right-box {
+  margin-top: 30px;
+  max-width: 380px;
+  width: 100%;
+  background: #00C0A4;
+  padding: 15px 30px;
+  display: flex;
+}
+
+.remove-right-box span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.remove-right-box h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.remove-box-left {
+  flex: 0 0 auto;
+}
+
+.remove-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 3px;
+  right: -5px;
+}
+
+.remove-right .common-border {
+  padding: 8px 15px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+/*------------------ Work Table-8 area End --------------------*/
+
+/*------------------ Work Table-9 area Start --------------------*/
+
+.client-contact-area {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.client-content {
+  max-width: 230px;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.client-content h4 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.client-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.client-icon a {
+  font-size: 16px;
+  color: #FFF;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.client-icon {
+  margin-top: 40px;
+}
+
+.client-chat-box {
+  background: #E0E0D5;
+  padding: 20px;
+  min-height: 425px;
+  max-width: 540px;
+  margin-left: 35px;
+  position: relative;
+  padding-bottom: 70px;
+}
+
+.client-chat-box textarea {
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+  color: #23262B;
+  border: 0;
+  border-bottom: 1px solid #7070709e;
+  background: transparent;
+  resize: none;
+  outline: none;
+}
+
+.client-contact-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.single-chat {
+  color: #23262B;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.single-chat span {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.single-chat p {
+  margin-bottom: 0;
+}
+
+.single-chat .chat-message {
+  max-width: 50%;
+}
+
+.single-chat:nth-child(even) {
+  align-items: flex-end;
+}
+
+.chat-btn .common-border {
+  color: #23262B;
+  border-top: 1px solid #23262b7a;
+  border-bottom: 1px solid #23262b7a;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  font-weight: 700;
+  transition: .4s;
+  line-height: 1;
+  padding-bottom: 11px;
+  margin-top: 0;
+}
+
+.client-chat-form {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: #e0e0d5;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.client-textarea {
+  max-width: 240px;
+  width: 100%;
+}
+
+/*------------------ Work Table-9 area End --------------------*/
+
+/*------------------ Work Table-10 area Start --------------------*/
+
+.single-contract-item {
+  border-top: 1px solid #909194;
+  padding-top: 9px;
+  margin-bottom: 160px;
+}
+
+.single-con-title h4 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.single-con-title h4 span {
+  margin-left: 140px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.single-con-title p {
+  font-size: 14px;
+}
+
+.payment-status h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 23px;
+}
+
+.payment-status-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.payment-st-left {
+  display: flex;
+}
+
+.sngl-payment {
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+.sngl-payment:last-child {
+  margin-right: 0;
+}
+
+.sngl-payment span {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.sngl-payment h4 {
+  font-size: 21px;
+  margin: 0;
+}
+
+.contact-point {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.contact-point-left {
+  border-right: 1px solid #737578;
+  flex: 0 0 55%;
+}
+
+.contact-point-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-point-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-point-item span {
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.contact-point-item p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.contact-point-item h4 {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 50px;
+}
+
+.contract-point-right {
+  display: flex;
+  align-items: flex-end;
+}
+
+.contract-total span {
+  font-size: 16px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.contract-total h5 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.contract-total {
+  margin-right: 95px;
+}
+
+.contract-icon a {
+  font-size: 16px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.contract-box {
+  background: #00C0A4;
+  padding: 20px;
+  min-height: 225px;
+  max-width: 500px;
+  margin-left: 35px;
+  position: relative;
+  padding-bottom: 70px;
+  width: 100%;
+}
+
+.contract-box .client-chat-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: #00C0A4;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.contract-box .client-chat-form textarea {
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  resize: none;
+  outline: none;
+}
+
+.contract-box .chat-btn .common-border {
+  color: #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  font-weight: 700;
+  transition: .4s;
+  line-height: 1;
+  padding-bottom: 11px;
+  margin-top: 0;
+}
+
+.single-contract-item.diff {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*------------------ Work Table-10 area End --------------------*/
+
+/*------------------ Work Table-12 area Start --------------------*/
+
+.bottom-control-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #23262B;
+  padding: 30px 40px;
+}
+
+.bottom-control-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1460px;
+  margin: 0 auto;
+  padding-right: 70px;
+}
+
+.bottom-control {
+  max-width: 535px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.bottom-control a {
+  font-size: 16px;
+  color: #fff;
+}
+
+.start-btn.common-border {
+  border-color: #02BDDC;
+}
+
+.start-btn.common-border:hover {
+  color: #02BDDC;
+}
+
+.mbx-right-bar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 240px;
+  background: #23262b;
+  height: 100%;
+  z-index: 2;
+  padding: 7px;
+}
+
+.mbx-toggle {
+  position: relative;
+  font-size: 19px;
+  width: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  margin-left: 155px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.view-top {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+
+.single-mbx-profile {
+  height: 115px;
+  background: #ffff;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.single-mbx-profile::after {
+  position: absolute;
+  bottom: 0;
+  content: '';
+  height: 35px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dbdbdb+0,8e8e8e+29,595959+57,212121+100 */
+  background: linear-gradient(to bottom, #0000 0%,   #212121 100%);
+  width: 100%;
+  left: 0;
+}
+
+.single-mbx-profile h5 {
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  margin-bottom: -2px;
+}
+
+.bg-blue {
+  background-color: #02BDDC!important;
+}
+
+.single-mbx-profile.bg-blue::after {
+  display: none;
+}
+
+.view-down {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.mbx-media-bottom {
+  margin: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid #727377;
+  margin-bottom: 35px;
+  padding-top: 25px;
+}
+
+.mbx-media-bottom a {
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.mbx-bar-open {
+  position: absolute;
+  top: 60px;
+  left: -28px;
+  cursor: pointer;
+}
+
+.btn-mbx {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.mbx-screen {
+  height: 100%;
+  width: 100%;
+  padding-right: 240px;
+  padding-bottom: 105px;
+  position: fixed;
+}
+
+.mbx-media-bottom a span {
+  position: relative;
+}
+
+.mbx-media-bottom a span.new-sms::after {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: #FF4425;
+  content: '';
+}
+
+.customer-chat-box {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  z-index: 4;
+  width: 320px;
+  height: 270px;
+  background: #02BDDC;
+  padding: 25px;
+  padding-right: 40px;
+}
+
+.chat-close {
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  color: #fff;
+  z-index: 4;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.customer-chat-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.customer-chat-input textarea {
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid #ffffff9e;
+  background: transparent;
+  resize: none;
+  margin-top: 0;
+  outline: none;
+}
+
+.customer-chat-input .common-border {
+  outline: none;
+  background: transparent;
+  border-right: 0;
+  border-left: 0;
+  border-color: #fff;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.mbx-profile-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+.profile-control {
+  display: flex;
+}
+
+.profile-control a {
+  font-size: 12px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.mdx-alert {
+  height: 163px;
+  width: 322px;
+  background: #4F73EA;
+  padding: 25px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-88%, -88%);
+}
+
+.alert-close {
+  position: absolute;
+  top: 7px;
+  font-size: 15px;
+  right: 14px;
+  cursor: pointer;
+}
+
+.mdx-alert h4 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.mdx-alert p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.profile-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-name h3 {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.single-mbx-right-bar-text {
+  padding: 0 23px;
+  margin-top: 40px;
+}
+
+.single-mbx-right-bar-text h4 {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.single-mbx-right-bar-text p {
+  font-size: 13px;
+  margin: 0;
+}
+
+.mbx-bar-chat {
+  padding: 0 20px;
+  padding-top: 55px;
+}
+
+.chat-top-title {
+  border-top: 1px solid #ffffff3d;
+  padding-top: 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-top-title p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.file-upload {
+  width: 65px;
+  position: relative;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.file-upload input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-upload span {
+  margin-right: 8px;
+  font-size: 15px;
+}
+
+.mbx-bar-chat-box {
+  padding-top: 23px;
+  margin-bottom: 15px;
+}
+
+.mbx-bar-chat-box textarea {
+  height: 120px;
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  resize: none;
+  margin-top: 0;
+  outline: none;
+}
+
+.mbx-bar-chat-box .common-border {
+  outline: none;
+  background: transparent;
+  border-right: 0;
+  border-left: 0;
+  border-color: #ffffff9e;
+  margin-top: 15px;
+  cursor: pointer;
+  color: #fff;
+  padding: 7px 20px;
+  padding-bottom: 8px;
+  font-size: 13px;
+}
+.mbx-bar-chat-box .customer-chat-input { 
+	align-items: flex-start; 
+}
+/*------------------ Work Table-12 area End --------------------*/
+
+/*------------------ Main area End --------------------*/

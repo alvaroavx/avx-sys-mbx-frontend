@@ -1,0 +1,38 @@
+{
+  "BotonDiseno": {
+    "description": "Auto imported from components/BotonDiseno.vue"
+  },
+  "Hr": {
+    "description": "Auto imported from components/Hr.vue"
+  },
+  "ImgUr": {
+    "description": "Auto imported from components/ImgUr.vue"
+  },
+  "InviteTeam": {
+    "description": "Auto imported from components/InviteTeam.vue"
+  },
+  "Login": {
+    "description": "Auto imported from components/Login.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "Modal": {
+    "description": "Auto imported from components/Modal.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  },
+  "Iframecion": {
+    "description": "Auto imported from components/iframecion.vue"
+  },
+  "Internal": {
+    "description": "Auto imported from components/internal.vue"
+  },
+  "SizeTool": {
+    "description": "Auto imported from components/sizeTool.vue"
+  },
+  "Video": {
+    "description": "Auto imported from components/video.vue"
+  }
+}
